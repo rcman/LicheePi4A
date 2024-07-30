@@ -10,3 +10,9 @@ Ubuntu 24.04. I'll be posting update and findings here.
 <br>
 Links to boot in to mode<br>
 https://wiki.sipeed.com/hardware/en/lichee/th1520/lpi4a/4_burn_image.html
+<br>
+Ubuntu Image
+<br>
+http://cdimage.ubuntu.com/ubuntu-base/releases/22.04/release/
+<br>
+
