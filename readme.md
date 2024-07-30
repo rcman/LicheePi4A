@@ -15,4 +15,5 @@ Ubuntu Image
 <br>
 http://cdimage.ubuntu.com/ubuntu-base/releases/22.04/release/
 <br>
-
+The platform's defconfig contains all of the Linux kconfig settings required to properly configure the kernel build (features, default system parameters, etc) for that platform.
+<br>
