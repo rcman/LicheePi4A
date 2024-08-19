@@ -51,7 +51,7 @@ Option 2: Flash the system to EMMC
 
 Interrupt the u-boot countdown by pressing `Ctrl^C` when counting down using the serial port to enter the u-boot command line, then enter the following command:
 
-ums 0 mmc 0
+ums 0 mmc 0 pci 
 
 The EMMC will be mapped as a USB Mass Storage device on the computer, and you can use Etcher or other software to flash it.
 (2) After booting from the SD card, use the dd command to copy the Armbian image to the EMMC.
