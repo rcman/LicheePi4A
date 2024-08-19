@@ -63,3 +63,13 @@ It is recommended to use the legacy version based on T-Head SDK.
 First, you need to flash 16GB u-boot.
 Second, you need to change “th1520-lichee-pi-4a.dts” to “th1520-lichee-pi-4a-16gb.dts” in /boot/extlinux/extlinux.conf.
 
+<br>
+
+# Make sure you flash it properly
+
+<br>
+sudo fastboot flash ram ./firmware/u-boot-with-spl.bin
+sudo fastboot reboot
+sleep 10
+sudo fastboot flash uboot ./firmware/u-boot-with-spl.bin 
+
