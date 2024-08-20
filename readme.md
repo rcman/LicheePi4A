@@ -24,6 +24,7 @@ The platform's defconfig contains all of the Linux kconfig settings required to 
 
 So after totally messing up my laptop it not booting anymore I spent a lot of time trying flashing the system back via fastboot. It looks like flashing it via shell script did the trick. I have no idea what the difference is between that and flashing it manually. I'll upload the script and files here soon.
 <br>
+
 https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz
 
 # U-Boot
@@ -73,5 +74,7 @@ sudo fastboot reboot
 sleep 10
 sudo fastboot flash uboot ./firmware/u-boot-with-spl.bin 
 <br>
+
+
 ![desktop2](https://github.com/user-attachments/assets/ee8af285-b21d-43fd-8118-ef6123fbcb82)
 
