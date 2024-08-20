@@ -31,7 +31,7 @@ https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv
 <br>
 <br>
 
-If there is a DIP switch, set it to EMMC mode. Press the BOOT button on the board and connect lpi4a to the computer using a data cable. Then perform the following operations:
+DIP switches set it to EMMC mode. Press the BOOT button on the board and connect lpi4a to the computer using a data cable. Then perform the following operations:
 
 Optional
 
@@ -46,7 +46,7 @@ For installation of drivers, refer to the Sipeed official Wiki.
 Flash the system
 Option 1: Flash the system to an SD card
 
-You can use Etcher or other software.
+You can use Belena Etcher or other software.
 Option 2: Flash the system to EMMC
 (1) Use the UMS (USB Mass Storage) feature of u-boot (experimental):
 
