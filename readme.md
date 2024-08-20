@@ -67,12 +67,6 @@ Second, you need to change “th1520-lichee-pi-4a.dts” to “th1520-lichee-pi-
 <br>
 
 # Make sure you flash it properly
-
-<br>
-sudo fastboot flash ram ./firmware/u-boot-with-spl.bin
-sudo fastboot reboot
-sleep 10
-sudo fastboot flash uboot ./firmware/u-boot-with-spl.bin 
 <br>
 
 
