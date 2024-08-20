@@ -78,3 +78,7 @@ sudo fastboot flash uboot ./firmware/u-boot-with-spl.bin
 
 ![desktop2](https://github.com/user-attachments/assets/ee8af285-b21d-43fd-8118-ef6123fbcb82)
 
+<br>
+<br>
+
+![motherboard](https://github.com/user-attachments/assets/784c73ae-b4b3-4529-b4cf-e71c9f4525b4)
