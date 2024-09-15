@@ -76,3 +76,22 @@ Second, you need to change “th1520-lichee-pi-4a.dts” to “th1520-lichee-pi-
 <br>
 
 ![motherboard](https://github.com/user-attachments/assets/784c73ae-b4b3-4529-b4cf-e71c9f4525b4)
+<br>
+<br>
+I finally got it booting the way it was when I got it. Here's my script.  <br>
+
+#! /bin/sh
+# Script to flash images via fastboot, edit image path first
+#
+
+
+sudo fastboot flash ram u-boot-with-spl-plastic16g.bin<br>
+sudo fastboot reboot<br>
+sleep 5<br>
+sudo fastboot flash uboot u-boot-with-spl-plastic16g.bin<br>
+sudo fastboot flash boot  boot-console-20240529_143041.ext4u<br>
+sudo fastboot flash root root-console-20240601_180941.ext4<br>
+
+
+
+
